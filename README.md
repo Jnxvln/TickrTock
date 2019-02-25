@@ -22,7 +22,7 @@ TickrTock was primarily created for me to learn the Vue.js framework as an inspi
 ## On The Agenda
 
 | Feature             | Description                                          |
-|---------------------|:-----------------------------------------------------|
+|:--------------------|:-----------------------------------------------------|
 | Vuex Store for Data | Move data into Vuex store for efficient management   |
 | Data Persistence    | Database integration for hard-saving sessions        |
 | Report Generation   | Generate a printable report with session details     |
