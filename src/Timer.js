@@ -1,9 +1,9 @@
 class Timer {
   constructor () {
     this.interval = null
-    this.hh = { measure: 'hour', pref: '', value: 9 }
-    this.mm = { measure: 'minute', pref: '', value: 59 }
-    this.tick = { measure: 'tick', pref: '', value: 56 }
+    this.hh = { measure: 'hour', pref: '', value: 0 }
+    this.mm = { measure: 'minute', pref: '', value: 0 }
+    this.tick = { measure: 'tick', pref: '', value: 0 }
     this.h_low = ''
     this.m_low = ''
     this.s_low = ''
@@ -21,6 +21,7 @@ class Timer {
   }
 
   reset () {
+    this.stop()
     this.hh.value = 0
     this.mm.value = 0
     this.tick.value = 0
@@ -33,14 +34,14 @@ class Timer {
       this.checkDigit(this.mm)
       this.checkDigit(this.tick)
 
-      if (this.tick.value == 60) {
+      if (this.tick.value === 60) {
         this.mm.value += 1
         this.checkDigit(this.mm)
         this.tick.value = 0
         this.tick.pref = '0'
       }
 
-      if (this.mm.value == 60) {
+      if (this.mm.value === 60) {
         this.hh.value += 1
         this.checkDigit(this.hh)
         this.mm.value = 0
@@ -67,4 +68,4 @@ class Timer {
   }
 }
 
-// module.exports = Timer
+export default Timer
