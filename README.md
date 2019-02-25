@@ -1,29 +1,31 @@
-# client
+# TickrTock
 
-## Project setup
+> ### Simple stopwatch app useful for tracking and recording work sessions on a project.
+
+### Installation
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+TickrTock can help you keep track of the time spent on anything, such as a project for a client.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+A `session` begins by starting the timer. You can pause and return to the `session` at a later time, (adding to the existing time) or the `session` can be saved and recorded, starting a new session.
 
-### Run your tests
-```
-npm run test
-```
+Create as many sessions as you would like!
 
-### Lints and fixes files
-```
-npm run lint
-```
+TickrTock can total your session times for you and generate a report, including total and average session times, among other details.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> ### TickrTock is created with Vue.js
+
+TickrTock was primarily created for me to learn the Vue.js framework as an inspiring web developer, but if you find it useful, by all means fork it and experiment! :grin:
+
+## On The Agenda
+In no particular order
+| Feature             | Description                                          |
+| ------------------- |:----------------------------------------------------:|
+| Vuex Store for Data | Move data into Vuex store for efficient management   |
+| Data Persistence    | Database integration for hard-saving sessions        |
+| Report Generation   | Generate a printable report with session details     |
+| API Endpoints       | Create backend API for interacting with session data |
+| Generate Tests      | Create Mocha? tests for app efficiency               |
+| Deployment          | Make public using Heroku, Netlify, or other          |
