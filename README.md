@@ -2,10 +2,19 @@
 
 > ### Simple stopwatch app useful for tracking and recording work sessions on a project.
 
-### Installation
+## Install and Run
+
+Clone locally, then
 ```
 npm install
 ```
+Then move into the `client` directory and run on a local server.
+```
+cd client
+npm run serve
+```
+
+## About
 
 TickrTock can help you keep track of the time spent on anything, such as a project for a client.
 
