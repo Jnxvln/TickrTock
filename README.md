@@ -42,6 +42,3 @@ TickrTock was primarily created for me to learn the Vue.js framework as an inspi
 ## Thanks
 Thank you for checking this out! Keep an eye out for future developments. If you like it,
 fork it and experiment. I'd love to see what you come up with!
-
-## Visit Me On The Web
-Aside from programming, I also love creating music for films and games, you can check out my work at [justinkcox.com](https://www.justinkcox.com "Justin Cox Music").
